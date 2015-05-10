@@ -1,0 +1,19 @@
+package com.zywu.trycatch;
+
+public class TryTest {
+
+	class MyException extends Exception{
+		public MyException(String Msg) {
+			// TODO Auto-generated constructor stub
+			super(Msg);
+		}
+	}
+	public void f()throws MyException{
+		System.out.println("MyException");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

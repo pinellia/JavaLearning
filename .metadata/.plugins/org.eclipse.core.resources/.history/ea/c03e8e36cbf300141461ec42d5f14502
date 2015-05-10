@@ -1,0 +1,28 @@
+package com.zywu.polymorphism;
+
+class Cycle{
+	void ride(){
+		System.out.println("ride:"+this.getClass().getName());
+	}
+}
+
+class Unicycle extends Cycle{		
+	
+}
+
+class Bicycle extends Cycle{}
+
+class Tricycle extends Cycle{}
+
+public class Task1 {
+
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Cycle cy=new Unicycle();
+	
+
+	}
+
+}

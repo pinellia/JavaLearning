@@ -1,0 +1,19 @@
+package com.zywu.abstractTest;
+
+abstract class abase{}
+
+class adevide extends abase{
+	static void print(abase a)
+	{
+		adevide devide=(adevide)a;
+		devide.print(adevide);
+	}
+}
+public class Task4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

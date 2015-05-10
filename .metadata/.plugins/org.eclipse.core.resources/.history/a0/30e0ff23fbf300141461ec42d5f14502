@@ -1,0 +1,9 @@
+package com.zywu.abstractTest;
+
+import java.util.List;
+
+public interface ITask5 extends List<E> {
+	void f1();
+	int f2();
+	String f3();
+}

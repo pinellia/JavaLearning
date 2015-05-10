@@ -1,0 +1,27 @@
+package com.zywu.finaldata;
+
+import java.util.Random;
+
+class Value{
+	int i=1;
+}
+public class Test {
+
+	final int i1=2;
+	static final int I2=22;
+	
+	public static final int I3=222;
+	
+	final int i4= (int)(Math.random()*2);
+	
+	static final int i5= (int)(Math.random()*2);
+	
+	Value v1=new Value();
+	
+	final Value v1=new Value();
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

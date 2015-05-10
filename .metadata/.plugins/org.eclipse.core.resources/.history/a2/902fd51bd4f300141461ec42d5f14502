@@ -1,0 +1,20 @@
+package com.zywu.abstractTest;
+
+
+class People{
+	void eat(){};
+	void sleep(){};	
+}
+
+class Men extends People
+{
+	
+}
+public class Task1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

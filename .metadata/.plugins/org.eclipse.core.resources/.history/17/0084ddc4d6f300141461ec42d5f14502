@@ -1,0 +1,22 @@
+package com.zywu.abstractTest;
+
+abstract class abase{}
+
+class adevide extends abase{
+	static void print(abase a)
+	{
+		adevide devide=(adevide)a;
+		devide.g();
+	}
+	void g(){
+		System.out.println("g");
+	};
+}
+public class Task4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		adevide dAdevide=new adevide();
+	}
+
+}

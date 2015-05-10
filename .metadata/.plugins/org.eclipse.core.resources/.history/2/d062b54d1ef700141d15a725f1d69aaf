@@ -1,0 +1,13 @@
+package com.zywu.trycatch;
+
+public class TryTest {
+
+	class MyException extends Exception{
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

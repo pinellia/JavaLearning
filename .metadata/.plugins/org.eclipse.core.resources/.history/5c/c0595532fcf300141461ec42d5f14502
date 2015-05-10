@@ -1,0 +1,16 @@
+package com.zywu.abstractTest;
+
+interface A{
+	void f1();
+}
+
+
+
+public class InterfaceExtends {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

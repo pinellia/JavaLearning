@@ -1,0 +1,15 @@
+package com.zywu.finaldata;
+
+class Value{
+	int i=1;
+}
+public class Test {
+
+	final int i1=2;
+	static final i2=2;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

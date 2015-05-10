@@ -1,0 +1,33 @@
+/**
+ * 
+ */
+package com.zywu.InnerClassTest;
+
+
+class OutClass {
+	class InnerClass{
+		int a;
+		public InnerClass() {
+			// TODO Auto-generated constructor stub
+			System.out.println("InnerClass");
+		}
+	}
+	public OutClass() {
+		// TODO Auto-generated constructor stub
+	}
+}
+/**
+ * @author zywu
+ *
+ */
+public class Task1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

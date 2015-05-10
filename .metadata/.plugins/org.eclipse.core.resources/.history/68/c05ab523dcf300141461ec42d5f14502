@@ -1,0 +1,5 @@
+package com.zywu.abstractTest;
+
+public interface ITask5 {
+
+}

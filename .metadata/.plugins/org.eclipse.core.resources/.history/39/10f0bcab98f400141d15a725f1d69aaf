@@ -1,0 +1,13 @@
+package com.zywu.InnerClassTest3;
+
+import com.zywu.InnerClassTest2.*;
+
+public class AInterfaceImpl implements AInterface {
+
+	@Override
+	public void f() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

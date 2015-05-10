@@ -1,0 +1,20 @@
+package com.zywu.abstractTest;
+
+abstract class BaseClass{
+	public BaseClass() {
+		// TODO Auto-generated constructor stub
+	}
+	public void print() ;
+}
+
+class DevideClass extends BaseClass{
+	
+}
+public class Task3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

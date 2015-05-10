@@ -1,0 +1,27 @@
+package com.zywu.trycatch;
+
+class MyException extends Exception{
+	public MyException(String Msg) {
+		// TODO Auto-generated constructor stub
+		super(Msg);
+	}
+}
+public class TryTest {
+
+	
+	public static void f() throws MyException{
+		System.out.println("MyException");
+		throw new MyException("test");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			f();
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.err.println(e.getMessage());
+		}
+	}
+
+}

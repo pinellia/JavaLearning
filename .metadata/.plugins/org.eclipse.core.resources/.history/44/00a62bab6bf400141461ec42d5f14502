@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package com.zywu.InnerClassTest;
+
+
+class OutClass {
+	class InnerClass{
+		int a;
+	}
+}
+/**
+ * @author zywu
+ *
+ */
+public class Task1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

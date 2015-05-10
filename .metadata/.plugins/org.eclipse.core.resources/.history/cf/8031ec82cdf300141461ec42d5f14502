@@ -1,0 +1,31 @@
+package com.zywu.polymorphism;
+
+class BaseClass{
+	void f(){
+		System.out.println("b.f");
+		
+	}	
+	void g(){
+		System.out.println("b.g");
+	}	
+}
+class DevideClass{
+	void f(){
+		System.out.println("d.f");
+		
+	}	
+	@Override
+	void g(){
+		System.out.println("d.g");
+	}	
+}
+
+
+public class Task10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

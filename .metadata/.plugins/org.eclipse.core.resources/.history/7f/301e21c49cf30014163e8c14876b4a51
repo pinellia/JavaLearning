@@ -1,0 +1,15 @@
+package com.zywu.finaldata;
+
+public class InitialOrder {
+
+	public InitialOrder(){
+		System.out.println("Constructor");
+	}
+	private staic int a;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

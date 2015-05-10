@@ -1,0 +1,15 @@
+package com.zywu.polymorphism;
+
+public class Task1 {
+
+	class Cycle{
+		void ride(){
+			System.out.println(this.getClass().getName());
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
