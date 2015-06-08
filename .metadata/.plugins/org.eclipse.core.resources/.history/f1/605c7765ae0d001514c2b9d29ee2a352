@@ -1,0 +1,10 @@
+package com.springinaction.zywu;
+
+public class Juggler implements Performer {
+
+	@Override
+	public void perform() {
+		
+	}
+
+}

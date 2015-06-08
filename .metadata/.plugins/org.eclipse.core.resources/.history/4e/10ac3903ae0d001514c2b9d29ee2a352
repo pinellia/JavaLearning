@@ -1,0 +1,6 @@
+package com.springinaction.zywu;
+
+public interface Performer {
+	void perform() throws PerformerException;
+
+}

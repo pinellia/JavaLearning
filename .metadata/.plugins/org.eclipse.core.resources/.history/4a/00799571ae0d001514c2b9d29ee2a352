@@ -1,0 +1,15 @@
+package com.springinaction.zywu;
+
+public class Juggler implements Performer {
+
+	private int bagBeans=3;
+	
+	public public Juggler() {
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public void perform() {
+		
+	}
+
+}
