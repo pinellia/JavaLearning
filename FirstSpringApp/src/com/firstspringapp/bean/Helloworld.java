@@ -1,6 +1,7 @@
 package com.firstspringapp.bean;
 
 public class Helloworld {
+
 	private String msg;
 
 	public String getMsg() {
@@ -12,6 +13,17 @@ public class Helloworld {
 	}
 
 	public void printMsg() {
-		System.out.println("your message:" + msg);
+		System.out.println("your message:" + msg + "\nage:" + age);
 	}
+
+	public Integer getAge() {
+		return age;
+	}
+
+	public void setAge(Integer age) {
+		this.age = age;
+	}
+
+	private Integer age;
+	
 }

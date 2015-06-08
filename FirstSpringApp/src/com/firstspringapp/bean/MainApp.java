@@ -13,7 +13,11 @@ public class MainApp {
 		context = new ClassPathXmlApplicationContext("com/firstspringapp/bean/Beans.xml");
 
 		Helloworld obj = (Helloworld) context.getBean("helloWorld");
+		
+		Stage stage=(Stage)context.getBean("stage");
 
+		stage.printStage();
+		
 		obj.printMsg();
 
 	}
